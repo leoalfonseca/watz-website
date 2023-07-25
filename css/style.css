@@ -22,6 +22,11 @@ a {
     text-decoration: none;
 }
 
+strong {
+     font-family: 'Geologica', sans-serif;
+    font-weight: bold;
+}
+
 h1, h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
@@ -188,13 +193,13 @@ img {
 
 .section-header h3 {
     font-family: 'Geologica', sans-serif;
-    margin-bottom: 5px;
+    margin: 5px;
     text-align: center;
 
 }
 article {
   --img-scale: 1.001;
-  --title-color: #E76D31;
+  --title-color: #fff;
   --link-icon-translate: -20px;
   --link-icon-opacity: 0;
   position: relative;
@@ -204,7 +209,7 @@ article {
   transform-origin: center;
   transition: all 0.4s ease-in-out;
   overflow: hidden;
-  background-color: #2A2A2A;
+  background-color: #E76D31;
 }
 
 article a::after {
@@ -438,8 +443,8 @@ Generic layout (demo looks)
 @media(max-width: 768px) {
     .navbar {
         flex-direction: column;
-        height: 120px;
-        padding: 20px;
+        height: 130px;
+        padding: 0px 0px 30px 0px;
     }
 
     .navbar a {

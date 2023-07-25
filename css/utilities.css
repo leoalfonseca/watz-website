@@ -34,12 +34,19 @@
    background: #333;
    color: #fff;
 }
-.btn-light, .bg-light {
+.bg-light {
    background: #f4f4f4;
    color: #333;
 }
 
+.btn-light {
+   font-family: 'Geologica', sans-serif;
+   background: #f4f4f4;
+   color: #E76D31;
+}
+
 .btn-outline {
+    font-family: 'Geologica', sans-serif;
     background: transparent;
     border: 1px solid #fff;
 }
